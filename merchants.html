@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EmporifyX - Merchant Panel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Merchant Panel</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Merchant Dashboard -->
+  <section class="merchant-panel">
+    <h2>Manage Your Products</h2>
+    <form id="addProductForm">
+      <input type="text" id="productName" placeholder="Product Name" required>
+      <input type="number" id="productPrice" placeholder="Price" required>
+      <input type="text" id="productImage" placeholder="Image URL" required>
+      <textarea id="productDescription" placeholder="Product Description"></textarea>
+      <button type="submit">Add Product</button>
+    </form>
+
+    <h3>Product List</h3>
+    <ul id="merchantProducts">
+      <!-- Merchant-added products will appear here -->
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

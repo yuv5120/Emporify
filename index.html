@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EmporifyX - Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <!-- Logo -->
+    <div class="logo">
+      <i class="fas fa-store"></i> Emporify<span>X</span>
+    </div>
+  
+    <!-- Navigation Links -->
+    <nav>
+      <a href="#products"><i class="fas fa-shopping-bag"></i> Products</a>
+      <a href="#wishlist"><i class="fas fa-heart"></i> Wishlist</a>
+      <a href="#cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+      <a href="merchants.html">Merchant Panel</a>
+    </nav>
+  
+    <!-- Call to Action Button -->
+   
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Welcome to EmporifyX</h2>
+    <p>Where shopping meets innovation. Explore amazing products and deals!</p>
+    <button onclick="scrollToProducts()">Shop Now</button>
+  </section>
+
+  <!-- Product Section -->
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+    <div class="product-grid" id="productGrid">
+      <!-- Product cards will be dynamically injected here -->
+    </div>
+  </section>
+
+  <!-- Wishlist Section -->
+  <section id="wishlist" class="wishlist">
+    <h2>Your Wishlist</h2>
+    <ul id="wishlistItems">
+      <!-- Wishlist items will be dynamically added here -->
+    </ul>
+  </section>
+
+  <!-- Cart Section -->
+  <section id="cart" class="cart">
+    <h2>Your Cart</h2>
+    <ul id="cartItems">
+      <!-- Cart items will be dynamically added here -->
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
